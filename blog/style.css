@@ -49,7 +49,7 @@ body .navbar{padding-top: 10px ! important; padding-bottom: 10px ! important; he
  .jumbotron {border-radius: 0px;}
  body, .body {font-family: 'Lato', sans-serif ! important;  overflow-x: hidden ! important;}}
  
- 
+
 /*portfolio*/
 
 * {
@@ -57,7 +57,7 @@ body .navbar{padding-top: 10px ! important; padding-bottom: 10px ! important; he
 }
 
 .portfolio{
-background:  #ff6f00;
+background:  #e9e8e8;
 padding-top:10px;
 padding-bottom: 10px;
 
@@ -89,7 +89,7 @@ padding-bottom: 10px;
 /* Content */
 .port-content {
     background-color: white;
-    padding: 10px;
+    padding: 15px;
 
 }
 
@@ -106,8 +106,6 @@ padding-bottom: 10px;
         width: 100%;
     }
 }
-
-
 
 /*main menu*/
 .topnav {
@@ -322,4 +320,12 @@ padding-right: 20%;
   display:none;
 }
   
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+  
+
 }
