@@ -1,0 +1,325 @@
+h1.post-title {font-size: 1.75rem; font-weight:900; color:#3c4043; padding-bottom: 10px;}
+.h2, h2{font-size: 1.2rem; font-weight:700; color: #3c4043;}
+.section { margin: 0 0px ;}.inner{margin-top: 65px;}
+body .navbar{padding-top: 10px ! important; padding-bottom: 10px ! important; height: 60px; z-index: 9999999 ! important;}
+.jumbotron h1 {font-family: montserrat; font-weight:700; color: #fff; text-shadow: 2px 2px 2px #000;}
+.jumbotron .lead {color: #fff; text-shadow: 2px 2px 2px #000;}.jumbotron {border-radius: 0px; margin-bottom:-8px;} 
+ .btn{ box-shadow: 10px 10px 10px 2px #2d2520 ! important;  margin-right: 15px; background: #ff6200 ! important; border: none; border-radius: 3px;}
+ .date-header,  .post-timestamp{display:none;}
+ .inner-left {float:left;}
+ .inner-right {float:right;}.inner-right a{padding-left:3px; padding-right:3px;}
+ .mobile-search .container{padding-left:0px; padding-right: 0px;}
+ .footer {margin-bottom:15px;} .fa, .fas {font-size: 18px ! important;}
+ 
+ 
+ @media (max-width: 575.98px) {
+ .btn{width: 100% ! important; margin-top: 5px; margin-bottom: 5px; margin-left: 0px; margin-right: 0px;}	 
+ .btn-group-lg{width: 100% ! important;}body .navbar{padding-top: 10px ! important; padding-bottom: 10px ! important; height: 60px;}
+ .navbar-collapse {background: #fff !important; margin-top: 10px ! important;}
+ .inner-left {float:left ! important;}.inner-right {float:left ! important; text-align: center;}
+ .btn btn-primary btn-lg active{width:100%;}.jumbotron h1 {font-size: 25px ! important;}
+ .jumbotron .container {padding-left:0px; padding-right: 0px;}
+ .jumbotron .btn{ box-shadow: 10px 10px 10px 2px #2d2520; width: 100%; margin-top: 5px; margin-bottom: 5px; margin-left: 0px; margin-right: 0px;}
+ body {font-family: 'Lato', sans-serif ! important;} 
+ body, .body {font-family: 'Lato', sans-serif ! important;  overflow-x: hidden;} }
+ 
+ 
+ @media (max-width: 767.98px) { 
+  .btn{width: 100% ! important; margin-top: 5px; margin-bottom: 5px; margin-left: 0px; margin-right: 0px;}	 
+ .btn-group-lg {width: 100% ! important;}
+ body .navbar{padding-top: 10px ! important; padding-bottom: 10px ! important; height: 60px;}
+ .navbar-collapse {background: #fff !important; margin-top: 10px ! important;}.jumbotron h1 {font-size: 25px ! important;}
+ .btn btn-primary btn-lg active{ width: 100%; margin-top: 5px; margin-bottom: 5px;margin-left: 0px; margin-right: 0px;}.inner-left {float:left ! important;}.inner-right {float:left ! important; text-align: center;}
+ body {font-family: 'Lato', sans-serif ! important;}
+ body, .body {font-family: 'Lato', sans-serif ! important;  overflow-x: hidden;} }
+ 
+ 
+ @media (max-width: 991.98px) { body .navbar{padding-top: 10px ! important; padding-bottom: 10px ! important; height: 60px;}
+ .navbar-collapse {background: #fff !important; margin-top: 10px ! important;}
+ .jumbotron h1 {font-size: 25px ! important;}
+ .btn btn-primary btn-lg active{ width: 100%; margin-top: 5px; margin-bottom: 5px;margin-left: 0px; margin-right: 0px;}
+ .inner-left {float:left ! important;}
+ .inner-right {float:left ! important;}
+ body {font-family: 'Lato', sans-serif ! important;}
+ body, .body {font-family: 'Lato', sans-serif ! important;  overflow-x: hidden;} }
+ 
+ 
+ @media (max-width: 1199.98px) {.inner-left {float:left;}
+ .inner-right {float:right;}body {font-family: 'Lato', sans-serif ! important;}
+ .jumbotron {border-radius: 0px;}
+ body, .body {font-family: 'Lato', sans-serif ! important;  overflow-x: hidden ! important;}}
+ 
+ 
+/*portfolio*/
+
+* {
+    box-sizing: border-box;
+}
+
+.portfolio{
+background:  #ff6f00;
+padding-top:10px;
+padding-bottom: 10px;
+
+}
+
+.port-row {
+    margin: 8px -16px;	
+}
+/* Add padding BETWEEN each column */
+.port-row,
+.port-row &gt; .port-column {
+    padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.port-column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after rows */ 
+.port-row:after {
+    port-content: &quot;&quot;;
+    display: table;
+    clear: both;
+	background:  #f5cba7;
+}
+
+/* Content */
+.port-content {
+    background-color: white;
+    padding: 10px;
+
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .port-column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .port-column {
+        width: 100%;
+    }
+}
+
+
+
+/*main menu*/
+.topnav {
+  overflow: hidden;
+  background-color: #2d2520;
+box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+.topnav2 {
+  overflow: hidden;
+  background-color: #ff6200;
+box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav2 a {
+  float: left;
+  display: block;
+  color:  #ecf0f1;
+  text-align: center;
+  padding: 14px 16px ;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #2d2520;
+  color: #ff6f00;
+}
+.topnav2 a:hover {
+  background-color: #ff6200;
+  color:  #464646;
+
+}
+.active {
+  background-color: #2d2520;
+  color: rgba(0,0,0,.9);
+}
+.active-logo {
+  background-color: #2d2520;
+  color: rgba(0,0,0,.9);
+font-weight: 900;
+line-height: inherit;
+white-space: nowrap;
+}
+
+.product-heading{
+  color:   #2d2520 ! important;
+font-weight: 900;
+line-height: inherit;
+white-space: nowrap;
+padding-left:0px ! important;
+}
+.product-heading a{
+  color:   #2d2520;
+font-weight: 900;
+line-height: inherit;
+white-space: nowrap;
+}
+
+.active-logo a {
+   background-color: #2d2520;
+  color: #eeeeee;
+font-weight: 900;
+line-height: inherit;
+white-space: nowrap;
+padding: 14px 0px;
+}
+.active-logo a:hover {
+   background-color: #2d2520;
+  color: #ffffff;
+font-weight: 900;
+line-height: inherit;
+white-space: nowrap;
+}
+.topnav .icon {
+  display: none;
+}
+.topnav .search-icon {
+  display: none;
+}
+.topnav .icon-bar {
+  display: none;
+}
+.topnav2 .product-icon {
+  display: none;
+}
+
+.search-form{
+display: flex;
+float: right;
+padding: 10px 0px;
+position: relative;
+  }
+
+.mobile-search{
+    display: none;
+background:#ff6200;
+transition: .5s ease;
+}
+.mobile-search a {
+color: #eeeeee;
+}
+.mobile-search a:hover {
+color: #2d2520;
+}
+.product-menu{
+    display: none;
+background:  #ffa000;
+transition: .5s ease;
+}
+.product-menu a{
+color:  #2d2520;
+}
+
+.search-button{
+    background-color: #ea6a1b; /* Green */
+    border: none;
+box-shadow: 3px 1px 10px 1px #2d2520;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    
+}
+
+[type=search] {
+box-shadow: 1px 1px 10px 1px #2d2520;
+  }
+
+.search-button :hover {
+    background-color: #ea6a1b;
+    color: #039be5;
+}
+@media screen and (max-width: 1166px) {
+  .topnav a:not(:first-child) {display: none;}
+.topnav2 a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+.topnav2 a.product-icon {
+    float: right;
+    display: block;
+  }
+ .topnav .search-icon {
+    float: right;
+    display: block;
+padding-right: 15%;
+ color: #eeeeee;
+  padding: 14px 16px;
+  }
+ .topnav .icon-bar {
+   float: right;
+    display: block;
+color: #eeeeee;
+  padding: 14px 0px;
+  }
+.topnav2 .product-icon {
+   float: right;
+    display: block;
+color: #fff;
+  padding: 14px 0px;
+  }
+
+.topnav.responsive {position: relative;}
+.topnav2.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+.topnav.responsive .search-icon {
+    position: absolute;
+right:0;
+    top: 0;
+padding-right: 20%;
+  }
+.topnav.responsive .icon-bar {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+.topnav2.responsive .product-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+ .topnav2.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+.search-form
+{
+  display:none;
+}
+  
+}
